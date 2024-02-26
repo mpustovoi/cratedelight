@@ -10,6 +10,8 @@ ___
 - Berry Crate
 - Egg Crate
 - Glowberry Crate
+- Raw Salmon Crate
+- Raw Cod Crate
 - Cocoa Beans Bag
 - Sugar Bag
 

@@ -3,6 +3,8 @@
   "block.cratedelight.berry_crate": "Caisse de Baies",
   "block.cratedelight.glowberry_crate": "Caisse de Baies Lumineuses",
   "block.cratedelight.egg_crate": "Caisse à Œufs",
+  "block.cratedelight.salmon_crate": "Caisse de saumon cru",
+  "block.cratedelight.cod_crate": "Caisse de morue crue",
   "block.cratedelight.cocoabeans_bag": "Sac de Fèves de Cacao",
   "block.cratedelight.sugar_bag": "Sac de Sucre"
 }

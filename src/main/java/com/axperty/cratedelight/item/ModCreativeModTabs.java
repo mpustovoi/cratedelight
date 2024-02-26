@@ -23,6 +23,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.BERRY_CRATE.get());
                         pOutput.accept(ModBlocks.GLOWBERRY_CRATE.get());
                         pOutput.accept(ModBlocks.EGG_CRATE.get());
+                        pOutput.accept(ModBlocks.SALMON_CRATE.get());
+                        pOutput.accept(ModBlocks.COD_CRATE.get());
                         pOutput.accept(ModBlocks.COCOABEANS_BAG.get());
                         pOutput.accept(ModBlocks.SUGAR_BAG.get());
                     })

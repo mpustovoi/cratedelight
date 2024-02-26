@@ -4,6 +4,8 @@
     "cratedelight:apple_crate",
     "cratedelight:berry_crate",
     "cratedelight:glowberry_crate",
-    "cratedelight:egg_crate"
+    "cratedelight:egg_crate",
+    "cratedelight:salmon_crate",
+    "cratedelight:cod_crate"
   ]
 }
