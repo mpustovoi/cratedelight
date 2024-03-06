@@ -6,5 +6,9 @@
   "block.cratedelight.salmon_crate": "Caisse de saumon cru",
   "block.cratedelight.cod_crate": "Caisse de morue crue",
   "block.cratedelight.cocoabeans_bag": "Sac de fèves de cacao",
-  "block.cratedelight.sugar_bag": "Sac de sucre"
+  "block.cratedelight.sugar_bag": "Sac de sucre",
+  "block.cratedelight.golden_apple_crate": "Caisse de pommes d'or",
+  "block.cratedelight.golden_carrot_crate": "Caisse de carottes dorées",
+
+  "creativetab.cratedelight_tab": "Crate Delight"
 }

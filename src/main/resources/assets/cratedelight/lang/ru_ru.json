@@ -7,6 +7,8 @@
   "block.cratedelight.cod_crate": "Ящик с сырой треской",
   "block.cratedelight.cocoabeans_bag": "Мешок с какао-бобами",
   "block.cratedelight.sugar_bag": "Мешок с сахаром",
+  "block.cratedelight.golden_apple_crate": "Ящик золотого яблока",
+  "block.cratedelight.golden_carrot_crate": "Ящик золотой моркови",
 
   "creativetab.cratedelight_tab": "Crate Delight"
 }
