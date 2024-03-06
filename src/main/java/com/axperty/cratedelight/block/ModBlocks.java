@@ -43,6 +43,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> COD_CRATE = registerBlock("cod_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
+    // Golden Apple Crate
+    public static final RegistryObject<Block> GOLDEN_APPLE_CRATE = registerBlock("golden_apple_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Golden Carrot Crate
+    public static final RegistryObject<Block> GOLDEN_CARROT_CRATE = registerBlock("golden_carrot_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
     // Cocoa Beans Bag
     public static final RegistryObject<Block> COCOABEANS_BAG = registerBlock("cocoabeans_bag",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));

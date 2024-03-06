@@ -5,8 +5,9 @@
   "block.cratedelight.egg_crate": "Cajón de huevos",
   "block.cratedelight.salmon_crate": "Cajón de salmón crudo",
   "block.cratedelight.cod_crate": "Cajón de bacalao crudo",
-  "block.cratedelight.cocoabeans_bag": "Bolsa de semillas de cacao",
+  "block.cratedelight.cocoabeans_bag": "Bolsa de granos de cacao",
   "block.cratedelight.sugar_bag": "Bolsa de azúcar",
+  "block.cratedelight.golden_apple_crate": "Cajón de manzanas doradas",
 
   "creativetab.cratedelight_tab": "Crate Delight"
 }
