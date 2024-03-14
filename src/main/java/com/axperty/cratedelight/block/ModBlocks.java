@@ -51,8 +51,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> COCOABEANS_BAG = registerBlock("cocoabeans_bag",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
 
-    // Cocoa Beans Bag
+    // Sugar Bag
     public static final RegistryObject<Block> SUGAR_BAG = registerBlock("sugar_bag",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
+
+    // Gunpowder Bag
+    public static final RegistryObject<Block> GUNPOWDER_BAG = registerBlock("gunpowder_bag",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
