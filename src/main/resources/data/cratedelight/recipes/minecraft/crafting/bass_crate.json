@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "naturalist:bass"
+    }
+  },
+  "result": {
+    "item": "cratedelight:bass_crate"
+  }
+}

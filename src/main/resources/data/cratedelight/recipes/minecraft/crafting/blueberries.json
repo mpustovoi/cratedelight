@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:blueberry_crate"
+    }
+  ],
+  "result": {
+    "item": "nutritious_feast:blueberries",
+    "count": 9
+  }
+}

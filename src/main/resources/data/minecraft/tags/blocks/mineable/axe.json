@@ -3,10 +3,14 @@
   "values": [
     "cratedelight:apple_crate",
     "cratedelight:berry_crate",
+    "cratedelight:blueberry_crate",
     "cratedelight:glowberry_crate",
     "cratedelight:egg_crate",
+    "cratedelight:duck_egg_crate",
     "cratedelight:salmon_crate",
     "cratedelight:cod_crate",
+    "cratedelight:catfish_crate",
+    "cratedelight:bass_crate",
     "cratedelight:golden_apple_crate"
   ]
 }

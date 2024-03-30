@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -27,12 +28,20 @@ public class ModBlocks {
     public static final RegistryObject<Block> BERRY_CRATE = registerBlock("berry_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
-    // Glowberry Crate
+    // Blueberry Crate (Nutritious Feast)
+    public static final RegistryObject<Block> BLUEBERRY_CRATE = registerBlock("blueberry_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Glow Berry Crate
     public static final RegistryObject<Block> GLOWBERRY_CRATE = registerBlock("glowberry_crate",
-            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD).lightLevel((state) -> 7)));
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD).lightLevel((state) -> 13)));
 
     // Egg Crate
     public static final RegistryObject<Block> EGG_CRATE = registerBlock("egg_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Duck Egg Crate (Naturalist)
+    public static final RegistryObject<Block> DUCK_EGG_CRATE = registerBlock("duck_egg_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
     // Salmon Crate
@@ -41,6 +50,14 @@ public class ModBlocks {
 
     // Cod Crate
     public static final RegistryObject<Block> COD_CRATE = registerBlock("cod_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Catfish Crate (Naturalist)
+    public static final RegistryObject<Block> CATFISH_CRATE = registerBlock("catfish_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Bass Crate (Naturalist)
+    public static final RegistryObject<Block> BASS_CRATE = registerBlock("bass_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
     // Golden Apple Crate
@@ -57,6 +74,18 @@ public class ModBlocks {
 
     // Gunpowder Bag
     public static final RegistryObject<Block> GUNPOWDER_BAG = registerBlock("gunpowder_bag",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
+
+    // Wheat Flour Bag (Create)
+    public static final RegistryObject<Block> WHEAT_FLOUR_BAG = registerBlock("wheat_flour_bag",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
+
+    // Powdered Obsidian Bag (Create)
+    public static final RegistryObject<Block> POWDERED_OBSIDIAN_BAG = registerBlock("powdered_obsidian_bag",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
+
+    // Cinder Flour Bag (Create)
+    public static final RegistryObject<Block> CINDER_FLOUR_BAG = registerBlock("cinder_flour_bag",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

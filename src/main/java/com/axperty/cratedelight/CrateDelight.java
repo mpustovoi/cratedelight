@@ -24,27 +24,21 @@ public class CrateDelight {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public CrateDelight() {
+        System.out.println("[Crate Delight Forge]: Registering blocks...");
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);
-
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
-        modEventBus.addListener(this::addCreative);
+        System.out.println("[Crate Delight Forge] Blocks registered successfully!");
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
 
-    }
-
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModBlocks.APPLE_CRATE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

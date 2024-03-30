@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "create:powdered_obsidian"
+    }
+  },
+  "result": {
+    "item": "cratedelight:powdered_obsidian_bag"
+  }
+}
