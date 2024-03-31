@@ -14,9 +14,10 @@
   "block.cratedelight.duck_egg_crate": "오리 알 상자",
   "block.cratedelight.catfish_crate": "날것의 메기 상자",
   "block.cratedelight.bass_crate": "날것의 베이스 상자",
-  "block.cratedelight.wheat_flour_bag": "밀가루 가방",,
+  "block.cratedelight.wheat_flour_bag": "밀가루 가방",
   "block.cratedelight.powdered_obsidian_bag": "가루 상옥 가방",
   "block.cratedelight.cinder_flour_bag": "잿물 가루 가방",
+  "block.cratedelight.blueberry_crate": "블루베리 상자",
 
   "creativetab.cratedelight_tab": "Crate Delight"
 }
