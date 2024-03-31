@@ -11,5 +11,12 @@
   "block.cratedelight.golden_apple_crate": "Ящик золотого яблока",
   "block.cratedelight.golden_carrot_crate": "Ящик золотой моркови",
 
+  "block.cratedelight.duck_egg_crate": "Коробка с утинными яйцами",
+  "block.cratedelight.catfish_crate": "Сырая крышка для сома",
+  "block.cratedelight.bass_crate": "Сырая крышка для окуня",
+  "block.cratedelight.wheat_flour_bag": "Мешок с пшеничной мукой",
+  "block.cratedelight.powdered_obsidian_bag": "Мешок с порошком обсидиана",
+  "block.cratedelight.cinder_flour_bag": "Мешок с золоотсевом",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

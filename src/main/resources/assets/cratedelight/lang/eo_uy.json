@@ -11,5 +11,12 @@
   "block.cratedelight.golden_apple_crate": "Orkasta Pomo Krato",
   "block.cratedelight.golden_carrot_crate": "Orkasta Karoto Krato",
 
+  "block.cratedelight.duck_egg_crate": "Kajuto de Anasa Ovo",
+  "block.cratedelight.catfish_crate": "Kruda Kato-Fiŝo-Kaĝo",
+  "block.cratedelight.bass_crate": "Kruda Bas-Fiŝo-Kaĝo",
+  "block.cratedelight.wheat_flour_bag": "Sako de Tricumfaruno",
+  "block.cratedelight.powdered_obsidian_bag": "Sako de Pulverigita Obsidiano",
+  "block.cratedelight.cinder_flour_bag": "Sako de Cindrofaruno",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

@@ -11,5 +11,12 @@
   "block.cratedelight.golden_apple_crate": "Caixa de Maçã Dourada",
   "block.cratedelight.golden_carrot_crate": "Caixa de Cenoura Dourada",
 
+  "block.cratedelight.duck_egg_crate": "Caixa de Ovos de Pato",
+  "block.cratedelight.catfish_crate": "Caixa de Peixe-Gato Cru",
+  "block.cratedelight.bass_crate": "Caixa de Robalo Cru",
+  "block.cratedelight.wheat_flour_bag": "Saco de Farinha de Trigo",
+  "block.cratedelight.powdered_obsidian_bag": "Saco de Pó de Obsidiana",
+  "block.cratedelight.cinder_flour_bag": "Saco de Farinha de Cinzas",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

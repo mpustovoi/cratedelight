@@ -11,5 +11,12 @@
   "block.cratedelight.golden_apple_crate": "Gouden Appel Kist",
   "block.cratedelight.golden_carrot_crate": "Gouden Wortel Kist",
 
+  "block.cratedelight.duck_egg_crate": "Eenden Eierenkrat",
+  "block.cratedelight.catfish_crate": "Rauwe Katviskrat",
+  "block.cratedelight.bass_crate": "Rauwe Baarskrat",
+  "block.cratedelight.wheat_flour_bag": "Tarwemeelzak",
+  "block.cratedelight.powdered_obsidian_bag": "Poederobsidiaanzak",
+  "block.cratedelight.cinder_flour_bag": "Asmeelzak",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

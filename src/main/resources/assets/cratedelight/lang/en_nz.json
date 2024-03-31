@@ -11,5 +11,13 @@
   "block.cratedelight.golden_apple_crate": "Golden Apple Crate",
   "block.cratedelight.golden_carrot_crate": "Golden Carrot Crate",
 
+  "block.cratedelight.duck_egg_crate": "Duck Egg Crate",
+  "block.cratedelight.catfish_crate": "Raw Catfish Crate",
+  "block.cratedelight.bass_crate": "Raw Bass Crate",
+  "block.cratedelight.wheat_flour_bag": "Wheat Flour Bag",
+  "block.cratedelight.powdered_obsidian_bag": "Powdered Obsidian Bag",
+  "block.cratedelight.cinder_flour_bag": "Cinder Flour Bag",
+  "block.cratedelight.blueberry_crate": "Blueberry Crate",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

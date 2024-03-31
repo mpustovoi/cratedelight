@@ -11,5 +11,12 @@
   "block.cratedelight.golden_apple_crate": "金蘋果箱",
   "block.cratedelight.golden_carrot_crate": "金胡蘿蔔箱",
 
+  "block.cratedelight.duck_egg_crate": "鴨蛋箱",
+  "block.cratedelight.catfish_crate": "生的鯰魚箱",
+  "block.cratedelight.bass_crate": "生的鱸魚箱",
+  "block.cratedelight.wheat_flour_bag": "小麥粉袋",
+  "block.cratedelight.powdered_obsidian_bag": "粉末黑曜石袋",
+  "block.cratedelight.cinder_flour_bag": "灰塵粉袋",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

@@ -11,5 +11,12 @@
   "block.cratedelight.golden_apple_crate": "Gyllene Äppelkrat",
   "block.cratedelight.golden_carrot_crate": "Gyllene Morotkrat",
 
+  "block.cratedelight.duck_egg_crate": "Ankäggslåda",
+  "block.cratedelight.catfish_crate": "Rå Kattfisklåda",
+  "block.cratedelight.bass_crate": "Rå Abborrlåda",
+  "block.cratedelight.wheat_flour_bag": "Vetemjölsäck",
+  "block.cratedelight.powdered_obsidian_bag": "Pulveriserad Obsidiansäck",
+  "block.cratedelight.cinder_flour_bag": "Askmjölsäck",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

@@ -11,5 +11,12 @@
   "block.cratedelight.golden_apple_crate": "Goldener Apfelkasten",
   "block.cratedelight.golden_carrot_crate": "Goldener Karottenkasten",
 
+  "block.cratedelight.duck_egg_crate": "Enteneier-Kiste",
+  "block.cratedelight.catfish_crate": "Rohes Wels-Kiste",
+  "block.cratedelight.bass_crate": "Rohes Barsch-Kiste",
+  "block.cratedelight.wheat_flour_bag": "Weizenmehl-Tasche",
+  "block.cratedelight.powdered_obsidian_bag": "Pulverisiertes Obsidian-Tasche",
+  "block.cratedelight.cinder_flour_bag": "Aschmehl-Tasche",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

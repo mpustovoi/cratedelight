@@ -11,5 +11,12 @@
   "block.cratedelight.golden_apple_crate": "Gull-eplekasse",
   "block.cratedelight.golden_carrot_crate": "Gullgulrotkasse",
 
+  "block.cratedelight.duck_egg_crate": "Andeeggkasse",
+  "block.cratedelight.catfish_crate": "Rå Mallekasse",
+  "block.cratedelight.bass_crate": "Rå Gjeddekasse",
+  "block.cratedelight.wheat_flour_bag": "Hvetemelpose",
+  "block.cratedelight.powdered_obsidian_bag": "Pulverisert Obsidianpose",
+  "block.cratedelight.cinder_flour_bag": "Askeblomsterpose",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

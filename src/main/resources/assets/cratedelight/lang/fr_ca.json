@@ -11,5 +11,12 @@
   "block.cratedelight.golden_apple_crate": "Caisse de pommes d'or",
   "block.cratedelight.golden_carrot_crate": "Caisse de carottes dorées",
 
+  "block.cratedelight.duck_egg_crate": "Caisse d'Œufs de Canard",
+  "block.cratedelight.catfish_crate": "Caisse de Poisson-Chat brut",
+  "block.cratedelight.bass_crate": "Caisse de Bar brut",
+  "block.cratedelight.wheat_flour_bag": "Sac de Farine de Blé",
+  "block.cratedelight.powdered_obsidian_bag": "Sac de Poudre d'Obsidienne",
+  "block.cratedelight.cinder_flour_bag": "Sac de Farine de Cendre",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

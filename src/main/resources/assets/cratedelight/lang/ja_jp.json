@@ -11,5 +11,12 @@
   "block.cratedelight.golden_apple_crate": "ゴールデンアップルクレート",
   "block.cratedelight.golden_carrot_crate": "ゴールデンキャロットクレート",
 
+  "block.cratedelight.duck_egg_crate": "アヒルの卵の木箱",
+  "block.cratedelight.catfish_crate": "生のナマズの木箱",
+  "block.cratedelight.bass_crate": "生のバスの木箱",
+  "block.cratedelight.wheat_flour_bag": "小麦粉の袋",
+  "block.cratedelight.powdered_obsidian_bag": "粉末黒曜石の袋",
+  "block.cratedelight.cinder_flour_bag": "シンダーフラワーの袋",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

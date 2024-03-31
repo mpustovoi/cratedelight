@@ -11,5 +11,13 @@
   "block.cratedelight.golden_apple_crate": "Cajón de manzanas doradas",
   "block.cratedelight.golden_carrot_crate": "Cajón de zanahorias doradas",
 
+  "block.cratedelight.duck_egg_crate": "Cajón de huevos de pato",
+  "block.cratedelight.catfish_crate": "Cajón de bagre crudo",
+  "block.cratedelight.bass_crate": "Cajón de bajo crudo",
+  "block.cratedelight.wheat_flour_bag": "Bolsa de harina de trigo",
+  "block.cratedelight.powdered_obsidian_bag": "Bolsa de obsidiana en polvo",
+  "block.cratedelight.cinder_flour_bag": "Bolsa de harina del Nether",
+  "block.cratedelight.blueberry_crate": "Cajón de arándanos",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

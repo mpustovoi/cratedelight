@@ -11,5 +11,12 @@
   "block.cratedelight.golden_apple_crate": "Złoty skrzyniowy jabłko",
   "block.cratedelight.golden_carrot_crate": "Złoty skrzyniowy marchew",
 
+  "block.cratedelight.duck_egg_crate": "Klatka Kaczego Jaja",
+  "block.cratedelight.catfish_crate": "Surowa Klatka Suma",
+  "block.cratedelight.bass_crate": "Surowa Klatka Okonia",
+  "block.cratedelight.wheat_flour_bag": "Worek Mąki Pszennej",
+  "block.cratedelight.powdered_obsidian_bag": "Worek Proszku Obsydianowego",
+  "block.cratedelight.cinder_flour_bag": "Worek Proszku Popiołu",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }
