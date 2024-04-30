@@ -1,40 +1,42 @@
-<img src="https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png" alt="Crate Delight Fabric Logo">
+# Crate Delight
 
+<a href="https://www.curseforge.com/minecraft/mc-mods/crate-delight-forge">
+  <img src="https://cf.way2muchnoise.eu/full_958291_downloads.svg" alt="Curseforge Downloads">
+</a>
+<a href="https://discord.gg/e2BQx4bbsU"><img alt="Discord" src="https://img.shields.io/discord/1194733791818821663?color=brightgreen&label=Discord"></a>
+
+<img src="https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png">
 <hr>
 
-<p><b>Forget chests and say hello to more food storage!</b> Craft beautiful crates and bags for your apples, berries, glow berries, eggs, cocoa beans, sugar, raw salmon, and raw cod.</p>
+### Overview
 
-<p><a href="https://www.curseforge.com/minecraft/mc-mods/crate-delight-forge"><b>Download on CurseForge</b></a> | <a href="https://modrinth.com/mod/crate-delight"><b>Download on Modrinth</b></a></p>
+Crate Delight is a mod for Farmer's Delight that adds more crates and bags to the game, letting the player save more storage and decorate their farm.
 
-<p>🍎 <strong>Make More Crates and Bags:</strong></p>
+### Contributing
 
-<ul>
-  <li>Apple Crate</li>
-  <li>Berry Crate</li>
-  <li>Egg Crate</li>
-  <li>Glow Berry Crate</li>
-  <li>Raw Salmon Crate</li>
-  <li>Raw Cod Crate</li>
-  <li>Golden Apple Crate</li>
-  <li>Cocoa Beans Bag</li>
-  <li>Sugar Bag</li>
-</ul>
+Your contributions to this project allows Crate Delight to be improved to deliver a better gameplay experience for all players. Feel free to submit your code suggestions, bug reports, texture improvements, or translations.
 
-<p>🔄️ <b>Compatible With Many Mods:</b></p>
+### Features
 
-<ul>
-<li><span style="color:#AF8F55"><b>[New]</b></span> Blueberry Crate for <b>Nutritious Feast</b></li>
-  <li><span style="color:#AF8F55"><b>[New]</b></span> Cinder Flour Bag for <b>Create</b></li>
-  <li><span style="color:#AF8F55"><b>[New]</b></span> Powdered Obsidian Bag for <b>Create</b></li>
-  <li><span style="color:#AF8F55"><b>[New]</b></span> Wheat Flour Bag for <b>Create</b></li>
-  <li><span style="color:#AF8F55"><b>[New]</b></span> Duck Egg Crate for <b>Naturalist</b></li>
-  <li><span style="color:#AF8F55"><b>[New]</b></span> Raw Bass Crate for <b>Naturalist</b></li>
-  <li><span style="color:#AF8F55"><b>[New]</b></span> Raw Catfish Crate for <b>Naturalist</b></li>
-</ul>
+This mod adds ten new type of blocks to the game that are useful to save storage, new blocks are constantly added with updates:
 
-<hr>
+- Apple Crate
+- Berry Crate
+- Glow Berry Crate
+- Egg Crate
+- Salmon Crate
+- Cod Crate
+- Golden Apple Crate
+- Cocoa Beans Bag
+- Sugar Bag
+- Gunpowder Bag
 
-<p>✨ <b>Support this Project:</b></p>
-<ul>
-    <li>Donators get <b>exclusive access</b> to mod updates before they officially release on <a href="https://discord.gg/z2E7Q78v8X">Discord.</a></li>
-</ul>
+It also adds crates and bags for the following mods:
+
+- Blueberry Crate (Nutritious Feast)
+- Duck Egg Crate (Naturalist)
+- Catfish Crate (Naturalist)
+- Bass Crate (Naturalist)
+- Wheat Flour Bag (Create)
+- Powdered Obsidian Bag (Create)
+- Cinder Flour Bag (Create)
