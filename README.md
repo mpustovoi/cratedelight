@@ -1,8 +1,6 @@
 # Crate Delight
 
-<a href="https://www.curseforge.com/minecraft/mc-mods/crate-delight-forge">
-  <img src="https://cf.way2muchnoise.eu/full_958291_downloads.svg" alt="Curseforge Downloads">
-</a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/crate-delight-forge"><img src="https://cf.way2muchnoise.eu/full_958291_downloads.svg" alt="Curseforge Downloads"></a>
 <a href="https://discord.gg/e2BQx4bbsU"><img alt="Discord" src="https://img.shields.io/discord/1194733791818821663?color=brightgreen&label=Discord"></a>
 
 <img src="https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png">
