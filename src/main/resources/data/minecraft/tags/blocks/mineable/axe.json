@@ -11,6 +11,8 @@
     "cratedelight:cod_crate",
     "cratedelight:catfish_crate",
     "cratedelight:bass_crate",
-    "cratedelight:golden_apple_crate"
+    "cratedelight:golden_apple_crate",
+    "cratedelight:red_mushroom_crate",
+    "cratedelight:brown_mushroom_crate"
   ]
 }

@@ -7,17 +7,23 @@
   "block.cratedelight.cod_crate": "生のタラクレート",
   "block.cratedelight.cocoabeans_bag": "カカオ豆の袋",
   "block.cratedelight.sugar_bag": "砂糖の袋",
+  "block.cratedelight.salt_bag": "塩袋",
   "block.cratedelight.gunpowder_bag": "火薬の袋",
+  "block.cratedelight.ground_cinnamon_bag": "挽きたてのシナモン袋",
   "block.cratedelight.golden_apple_crate": "ゴールデンアップルクレート",
-  "block.cratedelight.golden_carrot_crate": "ゴールデンキャロットクレート",
 
+  "block.cratedelight.end_fish_crate": "生のエンドフィッシュクレート",
   "block.cratedelight.duck_egg_crate": "アヒルの卵の木箱",
   "block.cratedelight.catfish_crate": "生のナマズの木箱",
   "block.cratedelight.bass_crate": "生のバスの木箱",
+  "block.cratedelight.peanut_crate": "ピーナッツの木箱",
   "block.cratedelight.wheat_flour_bag": "小麦粉の袋",
+  "block.cratedelight.ender_dust_bag": "エンダーダストの袋",
   "block.cratedelight.powdered_obsidian_bag": "粉末黒曜石の袋",
   "block.cratedelight.cinder_flour_bag": "シンダーフラワーの袋",
   "block.cratedelight.blueberry_crate": "ブルーベリーの木箱",
+  "block.cratedelight.red_mushroom_crate": "赤いキノコの木箱",
+  "block.cratedelight.brown_mushroom_crate": "茶色いキノコの木箱",
 
   "creativetab.cratedelight_tab": "Crate Delight"
 }

@@ -24,6 +24,8 @@ This mod adds ten new type of blocks to the game that are useful to save storage
 - Egg Crate
 - Salmon Crate
 - Cod Crate
+- Red Mushroom Crate
+- Brown Mushroom Crate
 - Golden Apple Crate
 - Cocoa Beans Bag
 - Sugar Bag

@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "nutritious_feast"
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

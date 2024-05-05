@@ -7,17 +7,23 @@
   "block.cratedelight.cod_crate": "生鳕鱼箱",
   "block.cratedelight.cocoabeans_bag": "可可豆袋",
   "block.cratedelight.sugar_bag": "糖袋",
+  "block.cratedelight.salt_bag": "盐袋",
   "block.cratedelight.gunpowder_bag": "袋火药",
+  "block.cratedelight.ground_cinnamon_bag": "袋肉桂粉",
   "block.cratedelight.golden_apple_crate": "金苹果箱",
-  "block.cratedelight.golden_carrot_crate": "金胡萝卜箱",
 
+  "block.cratedelight.end_fish_crate": "生的末地鱼箱",
   "block.cratedelight.duck_egg_crate": "鸭蛋箱",
   "block.cratedelight.catfish_crate": "生的鲶鱼箱",
   "block.cratedelight.bass_crate": "生的鲈鱼箱",
+  "block.cratedelight.peanut_crate": "花生箱",
   "block.cratedelight.wheat_flour_bag": "小麦面粉袋",
+  "block.cratedelight.ender_dust_bag": "末影尘袋",
   "block.cratedelight.powdered_obsidian_bag": "粉末黑曜石袋",
   "block.cratedelight.cinder_flour_bag": "灰尘面粉袋",
   "block.cratedelight.blueberry_crate": "蓝莓箱",
+  "block.cratedelight.red_mushroom_crate": "红蘑菇箱",
+  "block.cratedelight.brown_mushroom_crate": "棕蘑菇箱",
 
   "creativetab.cratedelight_tab": "Crate Delight"
 }

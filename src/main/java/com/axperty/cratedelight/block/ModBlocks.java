@@ -9,7 +9,6 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -58,6 +57,14 @@ public class ModBlocks {
 
     // Bass Crate (Naturalist)
     public static final RegistryObject<Block> BASS_CRATE = registerBlock("bass_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Red Mushroom Crate
+    public static final RegistryObject<Block> RED_MUSHROOM_CRATE = registerBlock("red_mushroom_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Brown Mushroom Crate
+    public static final RegistryObject<Block> BROWN_MUSHROOM_CRATE = registerBlock("brown_mushroom_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
     // Golden Apple Crate

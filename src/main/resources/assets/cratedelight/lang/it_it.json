@@ -7,17 +7,23 @@
   "block.cratedelight.cod_crate": "Cassa di merluzzo crudo",
   "block.cratedelight.cocoabeans_bag": "Borsa di fave di cacao",
   "block.cratedelight.sugar_bag": "Borsa di zucchero",
+  "block.cratedelight.salt_bag": "Borsa di sale",
   "block.cratedelight.gunpowder_bag": "Borsa di polvere da sparo",
   "block.cratedelight.golden_apple_crate": "Cassa di mele d'oro",
   "block.cratedelight.golden_carrot_crate": "Cassa di carote d'oro",
 
+  "block.cratedelight.end_fish_crate": "Cassa di pesce End crudo",
   "block.cratedelight.duck_egg_crate": "Cassa per uova di anatra",
   "block.cratedelight.catfish_crate": "Cassa di pesce gatto crudo",
   "block.cratedelight.bass_crate": "Cassa per basso grezzo",
+  "block.cratedelight.peanut_crate": "Cassa di arachidi",
   "block.cratedelight.wheat_flour_bag": "Sacchetto di farina di frumento",
+  "block.cratedelight.ender_dust_bag": "Sacchetto di polvere di ender",
   "block.cratedelight.powdered_obsidian_bag": "Borsa di ossidiana in polvere",
   "block.cratedelight.cinder_flour_bag": "Borsa per farina di cenere",
   "block.cratedelight.blueberry_crate": "Cassa di mirtilli",
+  "block.cratedelight.red_mushroom_crate": "Cassa di funghi rossi",
+  "block.cratedelight.brown_mushroom_crate": "Cassa di funghi marroni",
 
   "creativetab.cratedelight_tab": "Delizia della cassa"
 }

@@ -7,17 +7,23 @@
   "block.cratedelight.cod_crate": "Skrzynia z surowym dorszem",
   "block.cratedelight.cocoabeans_bag": "Worek z ziarnami kakaowca",
   "block.cratedelight.sugar_bag": "Worek z cukrem",
+  "block.cratedelight.salt_bag": "Worek z solą",
   "block.cratedelight.gunpowder_bag": "Torba z prochem strzelniczym",
+  "block.cratedelight.ground_cinnamon_bag": "Worek z mielonego cynamonu",
   "block.cratedelight.golden_apple_crate": "Złoty skrzyniowy jabłko",
-  "block.cratedelight.golden_carrot_crate": "Złoty skrzyniowy marchew",
 
+  "block.cratedelight.end_fish_crate": "Surowa Klatka Ryb Końcowych",
   "block.cratedelight.duck_egg_crate": "Klatka Kaczego Jaja",
   "block.cratedelight.catfish_crate": "Surowa Klatka Suma",
   "block.cratedelight.bass_crate": "Surowa Klatka Okonia",
+  "block.cratedelight.peanut_crate": "Klatka Orzeszków Erdnuss",
   "block.cratedelight.wheat_flour_bag": "Worek Mąki Pszennej",
+  "block.cratedelight.ender_dust_bag": "Worek Pyłu Enderowego",
   "block.cratedelight.powdered_obsidian_bag": "Worek Proszku Obsydianowego",
   "block.cratedelight.cinder_flour_bag": "Worek Proszku Popiołu",
   "block.cratedelight.blueberry_crate": "Skrzynka z Borówkami",
+  "block.cratedelight.red_mushroom_crate": "Czerwone skrzynki grzybów",
+  "block.cratedelight.brown_mushroom_crate": "Brązowe skrzynki grzybów",
 
   "creativetab.cratedelight_tab": "Crate Delight"
 }
