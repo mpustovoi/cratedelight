@@ -63,6 +63,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> PLATYPUS_EGG_CRATE = registerBlock("platypus_egg_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
+    // Kiwi Egg Crate (Jagm's Kiwis)
+    public static final RegistryObject<Block> KIWI_EGG_CRATE = registerBlock("kiwi_egg_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Kiwifruit Crate (Jagm's Kiwis)
+    public static final RegistryObject<Block> KIWIFRUIT_CRATE = registerBlock("kiwifruit_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
     // Banana Crate (Alex's Mobs)
     public static final RegistryObject<Block> BANANA_CRATE = registerBlock("banana_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));

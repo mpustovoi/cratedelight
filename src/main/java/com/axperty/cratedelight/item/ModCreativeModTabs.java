@@ -38,6 +38,11 @@ public class ModCreativeModTabs {
                             pOutput.accept(ModBlocks.BASS_CRATE.get());
                         }
 
+                        if (ModList.get().isLoaded("jagmkiwis")) {
+                            pOutput.accept(ModBlocks.KIWI_EGG_CRATE.get());
+                            pOutput.accept(ModBlocks.KIWIFRUIT_CRATE.get());
+                        }
+
                         if (ModList.get().isLoaded("alexsmobs")) {
                             pOutput.accept(ModBlocks.EMU_EGG_CRATE.get());
                             pOutput.accept(ModBlocks.TERRAPIN_EGG_CRATE.get());
