@@ -43,6 +43,30 @@ public class ModBlocks {
     public static final RegistryObject<Block> DUCK_EGG_CRATE = registerBlock("duck_egg_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
+    // Emu Egg Crate (Alex's Mobs)
+    public static final RegistryObject<Block> EMU_EGG_CRATE = registerBlock("emu_egg_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Terrapin Egg Crate (Alex's Mobs)
+    public static final RegistryObject<Block> TERRAPIN_EGG_CRATE = registerBlock("terrapin_egg_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Crocodile Egg Crate (Alex's Mobs)
+    public static final RegistryObject<Block> CROCODILE_EGG_CRATE = registerBlock("crocodile_egg_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Caiman Egg Crate (Alex's Mobs)
+    public static final RegistryObject<Block> CAIMAN_EGG_CRATE = registerBlock("caiman_egg_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Platypus Egg Crate (Alex's Mobs) (Perry The Platypus!)
+    public static final RegistryObject<Block> PLATYPUS_EGG_CRATE = registerBlock("platypus_egg_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Banana Crate (Alex's Mobs)
+    public static final RegistryObject<Block> BANANA_CRATE = registerBlock("banana_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
     // Salmon Crate
     public static final RegistryObject<Block> SALMON_CRATE = registerBlock("salmon_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
@@ -69,6 +93,10 @@ public class ModBlocks {
 
     // Golden Apple Crate
     public static final RegistryObject<Block> GOLDEN_APPLE_CRATE = registerBlock("golden_apple_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Golden Carrot Crate
+    public static final RegistryObject<Block> GOLDEN_CARROT_CRATE = registerBlock("golden_carrot_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
     // Cocoa Beans Bag

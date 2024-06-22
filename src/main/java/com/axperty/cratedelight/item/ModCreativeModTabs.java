@@ -38,9 +38,19 @@ public class ModCreativeModTabs {
                             pOutput.accept(ModBlocks.BASS_CRATE.get());
                         }
 
+                        if (ModList.get().isLoaded("alexsmobs")) {
+                            pOutput.accept(ModBlocks.EMU_EGG_CRATE.get());
+                            pOutput.accept(ModBlocks.TERRAPIN_EGG_CRATE.get());
+                            pOutput.accept(ModBlocks.CROCODILE_EGG_CRATE.get());
+                            pOutput.accept(ModBlocks.CAIMAN_EGG_CRATE.get());
+                            pOutput.accept(ModBlocks.PLATYPUS_EGG_CRATE.get());
+                            pOutput.accept(ModBlocks.BANANA_CRATE.get());
+                        }
+
                         pOutput.accept(ModBlocks.RED_MUSHROOM_CRATE.get());
                         pOutput.accept(ModBlocks.BROWN_MUSHROOM_CRATE.get());
                         pOutput.accept(ModBlocks.GOLDEN_APPLE_CRATE.get());
+                        pOutput.accept(ModBlocks.GOLDEN_CARROT_CRATE.get());
                         pOutput.accept(ModBlocks.COCOABEANS_BAG.get());
                         pOutput.accept(ModBlocks.SUGAR_BAG.get());
                         pOutput.accept(ModBlocks.GUNPOWDER_BAG.get());
