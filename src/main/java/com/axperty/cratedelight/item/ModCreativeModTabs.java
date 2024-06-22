@@ -54,8 +54,8 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.RED_MUSHROOM_CRATE.get());
                         pOutput.accept(ModBlocks.BROWN_MUSHROOM_CRATE.get());
-                        pOutput.accept(ModBlocks.GOLDEN_APPLE_CRATE.get());
                         pOutput.accept(ModBlocks.GOLDEN_CARROT_CRATE.get());
+                        pOutput.accept(ModBlocks.GOLDEN_APPLE_CRATE.get());
                         pOutput.accept(ModBlocks.COCOABEANS_BAG.get());
                         pOutput.accept(ModBlocks.SUGAR_BAG.get());
                         pOutput.accept(ModBlocks.GUNPOWDER_BAG.get());

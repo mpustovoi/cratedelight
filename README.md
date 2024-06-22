@@ -16,16 +16,17 @@ Your contributions to this project allows Crate Delight to be improved to delive
 
 ### Features
 
-This mod adds ten new type of blocks to the game that are useful to save storage, new blocks are constantly added with updates:
+This mod adds thirteen new type of blocks to the game that are useful to save storage, new blocks are constantly added with updates:
 
 - Apple Crate
 - Berry Crate
 - Glow Berry Crate
 - Egg Crate
-- Salmon Crate
-- Cod Crate
+- Raw Salmon Crate
+- Raw Cod Crate
 - Red Mushroom Crate
 - Brown Mushroom Crate
+- Golden Carrot Crate
 - Golden Apple Crate
 - Cocoa Beans Bag
 - Sugar Bag
@@ -33,10 +34,10 @@ This mod adds ten new type of blocks to the game that are useful to save storage
 
 It also adds crates and bags for the following mods:
 
-- Blueberry Crate (Nutritious Feast)
-- Duck Egg Crate (Naturalist)
-- Catfish Crate (Naturalist)
-- Bass Crate (Naturalist)
-- Wheat Flour Bag (Create)
-- Powdered Obsidian Bag (Create)
-- Cinder Flour Bag (Create)
+- Alex's Mobs
+- Create
+- Naturalist
+- Nutritious Feast
+- Jegm's Kiwis
+
+If you would like Crate Delight to have support for other mods, send your suggestions [on GitHub,](https://github.com/axperty/cratedelight-forge/issues/new) or you can also join the [Discord server.](https://discord.gg/yweZ2agkDw)
