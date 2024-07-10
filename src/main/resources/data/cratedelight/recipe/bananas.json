@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexsmobs"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:banana_crate"
+    }
+  ],
+  "result": {
+    "id": "alexsmobs:banana",
+    "count": 9
+  }
+}

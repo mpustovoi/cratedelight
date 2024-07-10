@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:wheat_flour_bag"
+    }
+  ],
+  "result": {
+    "id": "create:wheat_flour",
+    "count": 9
+  }
+}
