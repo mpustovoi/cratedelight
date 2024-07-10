@@ -18,6 +18,9 @@ Your contributions to this project allows Crate Delight to be improved to delive
 
 This mod adds thirteen new type of blocks to the game that are useful to save storage, new blocks are constantly added with updates:
 
+- Carrot Crate
+- Potato Crate
+- Beetroot Crate
 - Apple Crate
 - Berry Crate
 - Glow Berry Crate

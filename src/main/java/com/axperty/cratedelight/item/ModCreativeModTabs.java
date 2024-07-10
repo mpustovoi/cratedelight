@@ -20,6 +20,13 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.SALMON_CRATE.get()))
                     .title(Component.translatable("creativetab.cratedelight_tab"))
                     .displayItems((pParameters, pOutput) -> {
+
+                        if (!ModList.get().isLoaded("farmersdelight")) {
+                            pOutput.accept(ModBlocks.CARROT_CRATE.get());
+                            pOutput.accept(ModBlocks.POTATO_CRATE.get());
+                            pOutput.accept(ModBlocks.BEETROOT_CRATE.get());
+                        }
+
                         pOutput.accept(ModBlocks.APPLE_CRATE.get());
                         pOutput.accept(ModBlocks.BERRY_CRATE.get());
 

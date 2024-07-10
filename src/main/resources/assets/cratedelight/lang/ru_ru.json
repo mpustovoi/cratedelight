@@ -35,5 +35,9 @@
   "block.cratedelight.kiwi_egg_crate": "Ящик с яйцами киви",
   "block.cratedelight.kiwifruit_crate": "Ящик с киви",
 
+  "block.cratedelight.carrot_crate": "Коробка моркови",
+  "block.cratedelight.potato_crate": "Коробка картофеля",
+  "block.cratedelight.beetroot_crate": "Коробка свёклы",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

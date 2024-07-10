@@ -34,5 +34,9 @@
   "block.cratedelight.kiwi_egg_crate": "Cassa di uova di kiwi",
   "block.cratedelight.kiwifruit_crate": "Cassa di kiwi",
 
+  "block.cratedelight.carrot_crate": "Cassa di carote",
+  "block.cratedelight.potato_crate": "Cassa di patate",
+  "block.cratedelight.beetroot_crate": "Cassa di barbabietole",
+
   "creativetab.cratedelight_tab": "Delizia della cassa"
 }

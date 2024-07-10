@@ -19,6 +19,18 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, CrateDelight.MOD_ID);
 
+    // Carrot Crate
+    public static final RegistryObject<Block> CARROT_CRATE = registerBlock("carrot_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Potato Crate
+    public static final RegistryObject<Block> POTATO_CRATE = registerBlock("potato_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
+    // Beetroot Crate
+    public static final RegistryObject<Block> BEETROOT_CRATE = registerBlock("beetroot_crate",
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+
     // Apple Crate
     public static final RegistryObject<Block> APPLE_CRATE = registerBlock("apple_crate",
             () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
