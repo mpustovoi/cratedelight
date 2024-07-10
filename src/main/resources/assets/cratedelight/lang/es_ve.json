@@ -35,5 +35,9 @@
   "block.cratedelight.kiwi_egg_crate": "Cajón de huevos de Kiwi",
   "block.cratedelight.kiwifruit_crate": "Cajón de fruta de Kiwi",
 
+  "block.cratedelight.carrot_crate": "Cajón de zanahorias",
+  "block.cratedelight.potato_crate": "Cajón de patatas",
+  "block.cratedelight.beetroot_crate": "Cajón de remolacha",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

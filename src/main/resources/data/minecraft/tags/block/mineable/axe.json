@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "cratedelight:carrot_crate",
+    "cratedelight:potato_crate",
+    "cratedelight:beetroot_crate",
     "cratedelight:apple_crate",
     "cratedelight:berry_crate",
     "cratedelight:blueberry_crate",

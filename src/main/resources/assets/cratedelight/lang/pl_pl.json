@@ -35,5 +35,9 @@
   "block.cratedelight.kiwi_egg_crate": "Skrzynka z jajkami kiwi",
   "block.cratedelight.kiwifruit_crate": "Skrzynka z kiwi",
 
+  "block.cratedelight.carrot_crate": "Skrzynia marchewek",
+  "block.cratedelight.potato_crate": "Skrzynia ziemniaków",
+  "block.cratedelight.beetroot_crate": "Skrzynia buraków",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

@@ -35,5 +35,9 @@
   "block.cratedelight.kiwi_egg_crate": "キウイの卵箱",
   "block.cratedelight.kiwifruit_crate": "キウイフルーツの箱",
 
+  "block.cratedelight.carrot_crate": "ニンジンの箱",
+  "block.cratedelight.potato_crate": "ジャガイモの箱",
+  "block.cratedelight.beetroot_crate": "ビートルートの箱",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

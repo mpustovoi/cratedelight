@@ -35,5 +35,9 @@
   "block.cratedelight.kiwi_egg_crate": "奇異果蛋箱",
   "block.cratedelight.kiwifruit_crate": "奇異果箱",
 
+  "block.cratedelight.carrot_crate": "胡蘿蔔箱",
+  "block.cratedelight.potato_crate": "馬鈴薯箱",
+  "block.cratedelight.beetroot_crate": "甜菜根箱",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

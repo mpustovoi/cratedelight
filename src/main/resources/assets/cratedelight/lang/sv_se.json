@@ -35,5 +35,9 @@
   "block.cratedelight.kiwi_egg_crate": "Kiwiäggslåda",
   "block.cratedelight.kiwifruit_crate": "Kiwifruktslåda",
 
+  "block.cratedelight.carrot_crate": "Morotslåda",
+  "block.cratedelight.potato_crate": "Potatislåda",
+  "block.cratedelight.beetroot_crate": "Rödbetslåda",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

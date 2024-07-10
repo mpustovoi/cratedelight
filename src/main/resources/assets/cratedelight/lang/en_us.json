@@ -35,5 +35,9 @@
   "block.cratedelight.kiwi_egg_crate": "Kiwi Egg Crate",
   "block.cratedelight.kiwifruit_crate": "Kiwifruit Crate",
 
+  "block.cratedelight.carrot_crate": "Carrot Crate",
+  "block.cratedelight.potato_crate": "Potato Crate",
+  "block.cratedelight.beetroot_crate": "Beetroot Crate",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

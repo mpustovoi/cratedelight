@@ -35,5 +35,9 @@
   "block.cratedelight.kiwi_egg_crate": "Bedna s kiwi vejci",
   "block.cratedelight.kiwifruit_crate": "Bedna s kiwi",
 
+  "block.cratedelight.carrot_crate": "Mrkvová bedna",
+  "block.cratedelight.potato_crate": "Bramborová bedna",
+  "block.cratedelight.beetroot_crate": "Řepková bedna",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

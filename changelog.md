@@ -1,12 +1,12 @@
 <p align="left"><img src="https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png" alt="Crate Delight">
 
 <h3>Minor Update</h3>
-<p><b>Summary:</b> This update adds support for newer versions of the game.</p>
+<p><b>Summary:</b> This update adds crates from Farmer's Delight if it's not loaded into the game.</p>
 <hr/>
 
 <h3>✨ What's New:</h3>
 <ul>
-  <li>Added support for Minecraft 1.21.</li>
+  <li>Added Carrot Crate, Potato Crate, and Beetroot Crate from Farmer's Delight, only if the player doesn't have Farmer's Delight installed.</li>
 </ul>
 <hr/>
 

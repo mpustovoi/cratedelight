@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "farmersdelight"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:beetroot_crate"
+    }
+  ],
+  "result": {
+    "id": "minecraft:beetroot",
+    "count": 9
+  }
+}

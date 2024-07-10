@@ -35,5 +35,9 @@
   "block.cratedelight.kiwi_egg_crate": "Kesto de Kiwi-ovoj",
   "block.cratedelight.kiwifruit_crate": "Kesto de Kivifruktoj",
 
+  "block.cratedelight.carrot_crate": "Karota kesto",
+  "block.cratedelight.potato_crate": "Terpoma kesto",
+  "block.cratedelight.beetroot_crate": "Bete kuŝejo",
+
   "creativetab.cratedelight_tab": "Crate Delight"
 }

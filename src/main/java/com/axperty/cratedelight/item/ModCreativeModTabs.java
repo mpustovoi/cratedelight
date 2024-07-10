@@ -17,9 +17,16 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CrateDelight.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> CRATEDELIGHT_TAB = CREATIVE_MODE_TABS.register("cratedelight_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.SALMON_CRATE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BERRY_CRATE.get()))
                     .title(Component.translatable("creativetab.cratedelight_tab"))
                     .displayItems((pParameters, pOutput) -> {
+
+                        if (!ModList.get().isLoaded("farmersdelight")) {
+                            pOutput.accept(ModBlocks.CARROT_CRATE.get());
+                            pOutput.accept(ModBlocks.POTATO_CRATE.get());
+                            pOutput.accept(ModBlocks.BEETROOT_CRATE.get());
+                        }
+
                         pOutput.accept(ModBlocks.APPLE_CRATE.get());
                         pOutput.accept(ModBlocks.BERRY_CRATE.get());
 
