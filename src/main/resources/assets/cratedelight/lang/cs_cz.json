@@ -39,5 +39,5 @@
   "block.cratedelight.potato_crate": "Bramborová bedna",
   "block.cratedelight.beetroot_crate": "Řepková bedna",
 
-  "creativetab.cratedelight_tab": "Crate Delight"
+  "itemGroup.cratedelight": "Crate Delight"
 }

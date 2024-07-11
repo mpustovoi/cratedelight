@@ -39,5 +39,5 @@
   "block.cratedelight.potato_crate": "Коробка картоплі",
   "block.cratedelight.beetroot_crate": "Коробка буряка",
 
-  "creativetab.cratedelight_tab": "Crate Delight"
+  "itemGroup.cratedelight": "Crate Delight"
 }

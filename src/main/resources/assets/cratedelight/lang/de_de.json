@@ -39,5 +39,5 @@
   "block.cratedelight.potato_crate": "Kartoffelkiste",
   "block.cratedelight.beetroot_crate": "Rote-Bete-Kiste",
 
-  "creativetab.cratedelight_tab": "Crate Delight"
+  "itemGroup.cratedelight": "Crate Delight"
 }

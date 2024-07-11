@@ -39,5 +39,5 @@
   "block.cratedelight.potato_crate": "土豆箱",
   "block.cratedelight.beetroot_crate": "甜菜根箱",
 
-  "creativetab.cratedelight_tab": "Crate Delight"
+  "itemGroup.cratedelight": "Crate Delight"
 }

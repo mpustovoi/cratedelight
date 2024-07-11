@@ -18,7 +18,7 @@ public class ModCreativeModTabs {
 
     public static final RegistryObject<CreativeModeTab> CRATEDELIGHT_TAB = CREATIVE_MODE_TABS.register("cratedelight_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.SALMON_CRATE.get()))
-                    .title(Component.translatable("creativetab.cratedelight_tab"))
+                    .title(Component.translatable("itemGroup.cratedelight"))
                     .displayItems((pParameters, pOutput) -> {
 
                         if (!ModList.get().isLoaded("farmersdelight")) {

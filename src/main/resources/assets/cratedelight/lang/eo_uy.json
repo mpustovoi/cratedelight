@@ -39,5 +39,5 @@
   "block.cratedelight.potato_crate": "Terpoma kesto",
   "block.cratedelight.beetroot_crate": "Bete kuŝejo",
 
-  "creativetab.cratedelight_tab": "Crate Delight"
+  "itemGroup.cratedelight": "Crate Delight"
 }
