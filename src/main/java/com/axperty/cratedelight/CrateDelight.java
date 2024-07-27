@@ -1,27 +1,56 @@
 package com.axperty.cratedelight;
 
-import com.axperty.cratedelight.block.ModBlocks;
-import com.axperty.cratedelight.item.ModCreativeModTabs;
-import com.axperty.cratedelight.item.ModItems;
-import com.mojang.logging.LogUtils;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import com.axperty.cratedelight.registry.CreativeTabRegistry;
+import com.axperty.cratedelight.registry.BlockRegistry;
+import com.axperty.cratedelight.registry.ItemRegistry;
 import org.slf4j.Logger;
 
-@Mod(CrateDelight.MOD_ID)
-public class CrateDelight {
-    public static final String MOD_ID = "cratedelight";
-    public static final Logger LOGGER = LogUtils.getLogger();
+import com.mojang.logging.LogUtils;
 
-    public CrateDelight() {
-        LOGGER.debug("[Crate Delight]: Registering blocks...");
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ModBlocks.register(modEventBus);
-        ModItems.register(modEventBus);
-        ModCreativeModTabs.register(modEventBus);
-        MinecraftForge.EVENT_BUS.register(this);
-        LOGGER.debug("[Crate Delight]: Blocks registered successfully!");
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.event.server.ServerStartingEvent;
+
+@Mod(CrateDelight.MOD_ID)
+public class CrateDelight
+{
+    public static final String MOD_ID = "cratedelight";
+    private static final Logger LOGGER = LogUtils.getLogger();
+
+    public CrateDelight(IEventBus modEventBus, ModContainer modContainer)
+    {
+        modEventBus.addListener(this::commonSetup);
+        BlockRegistry.BLOCKS.register(modEventBus);
+        ItemRegistry.ITEMS.register(modEventBus);
+        CreativeTabRegistry.CREATIVE_MODE_TABS.register(modEventBus);
+        NeoForge.EVENT_BUS.register(this);
+    }
+
+    private void commonSetup(final FMLCommonSetupEvent event)
+    {
+
+    }
+
+    @SubscribeEvent
+    public void onServerStarting(ServerStartingEvent event)
+    {
+
+    }
+
+    @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    public static class ClientModEvents
+    {
+        @SubscribeEvent
+        public static void onClientSetup(FMLClientSetupEvent event)
+        {
+
+        }
     }
 }

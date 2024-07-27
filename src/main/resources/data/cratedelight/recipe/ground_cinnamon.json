@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "expandeddelight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:ground_cinnamon_bag"
+    }
+  ],
+  "result": {
+    "id": "expandeddelight:cinnamon",
+    "count": 9
+  }
+}

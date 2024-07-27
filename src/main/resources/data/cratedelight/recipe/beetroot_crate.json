@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:beetroot"
+    }
+  },
+  "result": {
+    "id": "cratedelight:beetroot_crate"
+  }
+}
