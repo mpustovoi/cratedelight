@@ -1,0 +1,20 @@
+--- a/net/minecraft/stats/RecipeBookSettings.java
++++ b/net/minecraft/stats/RecipeBookSettings.java
+@@ -11,7 +11,7 @@
+ import net.minecraft.world.inventory.RecipeBookType;
+ 
+ public final class RecipeBookSettings {
+-    private static final Map<RecipeBookType, Pair<String, String>> TAG_FIELDS = ImmutableMap.of(
++    private static final Map<RecipeBookType, Pair<String, String>> TAG_FIELDS = net.neoforged.neoforge.common.CommonHooks.buildRecipeBookTypeTagFields(ImmutableMap.of(
+         RecipeBookType.CRAFTING,
+         Pair.of("isGuiOpen", "isFilteringCraftable"),
+         RecipeBookType.FURNACE,
+@@ -20,7 +20,7 @@
+         Pair.of("isBlastingFurnaceGuiOpen", "isBlastingFurnaceFilteringCraftable"),
+         RecipeBookType.SMOKER,
+         Pair.of("isSmokerGuiOpen", "isSmokerFilteringCraftable")
+-    );
++    ));
+     private final Map<RecipeBookType, RecipeBookSettings.TypeSettings> states;
+ 
+     private RecipeBookSettings(Map<RecipeBookType, RecipeBookSettings.TypeSettings> p_12730_) {
