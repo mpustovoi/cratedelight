@@ -44,8 +44,3 @@ It also adds crates and bags for the following mods:
 - Jegm's Kiwis
 
 If you would like Crate Delight to have support for other mods, send your suggestions [on GitHub,](https://github.com/axperty/cratedelight-forge/issues/new) or you can also join the [Discord server.](https://discord.gg/yweZ2agkDw)
-
-### Fabric Version
-
-This mod is also available for Fabric, you can see its repository [here.](https://github.com/axperty/cratedelight-fabric/)
-
