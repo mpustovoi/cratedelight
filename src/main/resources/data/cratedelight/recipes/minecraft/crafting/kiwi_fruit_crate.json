@@ -1,8 +1,10 @@
 {
-  "conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "jagmkiwis"
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "jagmkiwis"
+      ]
     }
   ],
   "type": "minecraft:crafting_shaped",

@@ -1,8 +1,10 @@
 {
-  "conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "nutritious_feast"
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "nutritious-feast"
+      ]
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -12,7 +14,7 @@
     }
   ],
   "result": {
-    "item": "nutritious_feast:blueberries",
+    "item": "nutritious-feast:blueberries",
     "count": 9
   }
 }

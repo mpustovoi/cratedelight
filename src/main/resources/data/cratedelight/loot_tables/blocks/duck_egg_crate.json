@@ -1,8 +1,10 @@
 {
-  "conditions": [
+  "fabric:load_conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "naturalist"
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "naturalist"
+      ]
     }
   ],
   "type": "minecraft:block",
