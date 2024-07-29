@@ -43,4 +43,4 @@ It also adds crates and bags for the following mods:
 - Nutritious Feast
 - Jegm's Kiwis
 
-If you would like Crate Delight to have support for other mods, send your suggestions [on GitHub,](https://github.com/axperty/cratedelight-forge/issues/new) or you can also join the [Discord server.](https://discord.gg/yweZ2agkDw)
+If you would like Crate Delight to have support for other mods, send your suggestions on [GitHub,](https://github.com/axperty/cratedelight/issues/new) or you can also join the [Discord server.](https://discord.gg/yweZ2agkDw)
