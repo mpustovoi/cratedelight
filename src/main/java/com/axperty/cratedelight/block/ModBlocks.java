@@ -1,159 +1,144 @@
 package com.axperty.cratedelight.block;
 
 import com.axperty.cratedelight.CrateDelight;
-import com.axperty.cratedelight.item.ModItems;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
-
-import java.util.function.Supplier;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import com.axperty.cratedelight.item.ModItemGroup;
+import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
-    public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, CrateDelight.MOD_ID);
 
-    // Carrot Crate
-    public static final RegistryObject<Block> CARROT_CRATE = registerBlock("carrot_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Carrot Crate Registry
+    public static final Block CARROT_CRATE = !FabricLoader.getInstance().isModLoaded("farmersdelight") ?
+            registerBlock("carrot_crate", new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Potato Crate
-    public static final RegistryObject<Block> POTATO_CRATE = registerBlock("potato_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Potato Crate Registry
+    public static final Block POTATO_CRATE = !FabricLoader.getInstance().isModLoaded("farmersdelight") ?
+            registerBlock("potato_crate", new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Beetroot Crate
-    public static final RegistryObject<Block> BEETROOT_CRATE = registerBlock("beetroot_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Beetroot Crate Registry
+    public static final Block BEETROOT_CRATE = !FabricLoader.getInstance().isModLoaded("farmersdelight") ?
+            registerBlock("beetroot_crate", new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Apple Crate
-    public static final RegistryObject<Block> APPLE_CRATE = registerBlock("apple_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Apple Crate Registry
+    public static final Block APPLE_CRATE = registerBlock("apple_crate",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB);
 
-    // Berry Crate
-    public static final RegistryObject<Block> BERRY_CRATE = registerBlock("berry_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Berry Crate Registry
+    public static final Block BERRY_CRATE = registerBlock("berry_crate",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB);
 
-    // Blueberry Crate (Nutritious Feast)
-    public static final RegistryObject<Block> BLUEBERRY_CRATE = registerBlock("blueberry_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Blueberry Crate Registry (Nutritious Feast)
+    public static final Block BLUEBERRY_CRATE = FabricLoader.getInstance().isModLoaded("nutritious-feast") ?
+            registerBlock("blueberry_crate", new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Glow Berry Crate
-    public static final RegistryObject<Block> GLOWBERRY_CRATE = registerBlock("glowberry_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD).lightLevel((state) -> 13)));
+    // Glow Berry Crate Registry
+    public static final Block GLOWBERRY_CRATE = registerBlock("glowberry_crate",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).luminance((state) -> 13)), ModItemGroup.CREATIVE_MODE_TAB);
 
-    // Egg Crate
-    public static final RegistryObject<Block> EGG_CRATE = registerBlock("egg_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Egg Crate Registry
+    public static final Block EGG_CRATE = registerBlock("egg_crate",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB);
 
-    // Duck Egg Crate (Naturalist)
-    public static final RegistryObject<Block> DUCK_EGG_CRATE = registerBlock("duck_egg_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Duck Egg Crate Registry (Naturalist)
+    public static final Block DUCK_EGG_CRATE = FabricLoader.getInstance().isModLoaded("naturalist") ?
+            registerBlock("duck_egg_crate", new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Emu Egg Crate (Alex's Mobs)
-    public static final RegistryObject<Block> EMU_EGG_CRATE = registerBlock("emu_egg_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Peanut Crate Registry (Expanded Delight)
+    public static final Block PEANUT_CRATE = FabricLoader.getInstance().isModLoaded("expandeddelight") ?
+            registerBlock("peanut_crate", new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Terrapin Egg Crate (Alex's Mobs)
-    public static final RegistryObject<Block> TERRAPIN_EGG_CRATE = registerBlock("terrapin_egg_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Salmon Crate Registry
+    public static final Block SALMON_CRATE = registerBlock("salmon_crate",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB);
 
-    // Crocodile Egg Crate (Alex's Mobs)
-    public static final RegistryObject<Block> CROCODILE_EGG_CRATE = registerBlock("crocodile_egg_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Cod Crate Registry
+    public static final Block COD_CRATE = registerBlock("cod_crate",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB);
 
-    // Caiman Egg Crate (Alex's Mobs)
-    public static final RegistryObject<Block> CAIMAN_EGG_CRATE = registerBlock("caiman_egg_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Catfish Crate Registry (Naturalist)
+    public static final Block CATFISH_CRATE = FabricLoader.getInstance().isModLoaded("naturalist") ?
+            registerBlock("catfish_crate", new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Platypus Egg Crate (Alex's Mobs) (Perry The Platypus!)
-    public static final RegistryObject<Block> PLATYPUS_EGG_CRATE = registerBlock("platypus_egg_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Bass Crate Registry (Naturalist)
+    public static final Block BASS_CRATE = FabricLoader.getInstance().isModLoaded("naturalist") ?
+            registerBlock("bass_crate", new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Kiwi Egg Crate (Jagm's Kiwis)
-    public static final RegistryObject<Block> KIWI_EGG_CRATE = registerBlock("kiwi_egg_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // End Fish Crate Registry (BetterEnd)
+    public static final Block END_FISH_CRATE = FabricLoader.getInstance().isModLoaded("betterend") ?
+            registerBlock("end_fish_crate", new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Kiwifruit Crate (Jagm's Kiwis)
-    public static final RegistryObject<Block> KIWIFRUIT_CRATE = registerBlock("kiwifruit_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Red Mushroom Crate Registry
+    public static final Block RED_MUSHROOM_CRATE = registerBlock("red_mushroom_crate",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB);
 
-    // Banana Crate (Alex's Mobs)
-    public static final RegistryObject<Block> BANANA_CRATE = registerBlock("banana_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Brown Mushroom Crate Registry
+    public static final Block BROWN_MUSHROOM_CRATE = registerBlock("brown_mushroom_crate",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB);
 
-    // Salmon Crate
-    public static final RegistryObject<Block> SALMON_CRATE = registerBlock("salmon_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Golden Carrot Crate Registry
+    public static final Block GOLDEN_CARROT_CRATE = registerBlock("golden_carrot_crate",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB);
 
-    // Cod Crate
-    public static final RegistryObject<Block> COD_CRATE = registerBlock("cod_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Golden Apple Crate Registry
+    public static final Block GOLDEN_APPLE_CRATE = registerBlock("golden_apple_crate",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.CREATIVE_MODE_TAB);
 
-    // Catfish Crate (Naturalist)
-    public static final RegistryObject<Block> CATFISH_CRATE = registerBlock("catfish_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Cocoa Beans Bag Registry
+    public static final Block COCOABEANS_BAG = registerBlock("cocoabeans_bag",
+            new Block(FabricBlockSettings.of(Material.WOOL).strength(.9F, 3.0F).sounds(BlockSoundGroup.WOOL)), ModItemGroup.CREATIVE_MODE_TAB);
 
-    // Bass Crate (Naturalist)
-    public static final RegistryObject<Block> BASS_CRATE = registerBlock("bass_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Sugar Bag Registry
+    public static final Block SUGAR_BAG = registerBlock("sugar_bag",
+            new Block(FabricBlockSettings.of(Material.WOOL).strength(.9F, 3.0F).sounds(BlockSoundGroup.WOOL)), ModItemGroup.CREATIVE_MODE_TAB);
 
-    // Red Mushroom Crate
-    public static final RegistryObject<Block> RED_MUSHROOM_CRATE = registerBlock("red_mushroom_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Gunpowder Bag Registry
+    public static final Block GUNPOWDER_BAG = registerBlock("gunpowder_bag",
+            new Block(FabricBlockSettings.of(Material.WOOL).strength(.9F, 3.0F).sounds(BlockSoundGroup.WOOL)), ModItemGroup.CREATIVE_MODE_TAB);
 
-    // Brown Mushroom Crate
-    public static final RegistryObject<Block> BROWN_MUSHROOM_CRATE = registerBlock("brown_mushroom_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Salt Bag Registry (Expanded Delight)
+    public static final Block SALT_BAG = FabricLoader.getInstance().isModLoaded("expandeddelight") ?
+            registerBlock("salt_bag", new Block(FabricBlockSettings.of(Material.WOOL).strength(.9F, 3.0F).sounds(BlockSoundGroup.WOOL)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Golden Carrot Crate
-    public static final RegistryObject<Block> GOLDEN_CARROT_CRATE = registerBlock("golden_carrot_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Ground Cinnamon Bag Registry (Expanded Delight)
+    public static final Block GROUND_CINNAMON_BAG = FabricLoader.getInstance().isModLoaded("expandeddelight") ?
+            registerBlock("ground_cinnamon_bag", new Block(FabricBlockSettings.of(Material.WOOL).strength(.9F, 3.0F).sounds(BlockSoundGroup.WOOL)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Golden Apple Crate
-    public static final RegistryObject<Block> GOLDEN_APPLE_CRATE = registerBlock("golden_apple_crate",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+    // Wheat Flour Bag Registry (Create)
+    public static final Block WHEAT_FLOUR_BAG = FabricLoader.getInstance().isModLoaded("create") ?
+            registerBlock("wheat_flour_bag", new Block(FabricBlockSettings.of(Material.WOOL).strength(.9F, 3.0F).sounds(BlockSoundGroup.WOOL)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Cocoa Beans Bag
-    public static final RegistryObject<Block> COCOABEANS_BAG = registerBlock("cocoabeans_bag",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
+    // Powdered Bag Registry (Create)
+    public static final Block POWDERED_OBSIDIAN_BAG = FabricLoader.getInstance().isModLoaded("create") ?
+            registerBlock("powdered_obsidian_bag", new Block(FabricBlockSettings.of(Material.WOOL).strength(.9F, 3.0F).sounds(BlockSoundGroup.WOOL)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Sugar Bag
-    public static final RegistryObject<Block> SUGAR_BAG = registerBlock("sugar_bag",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
+    // Powdered Obsidian Bag Registry (Create)
+    public static final Block CINDER_FLOUR_BAG = FabricLoader.getInstance().isModLoaded("create") ?
+            registerBlock("cinder_flour_bag", new Block(FabricBlockSettings.of(Material.WOOL).strength(.9F, 3.0F).sounds(BlockSoundGroup.WOOL)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Gunpowder Bag
-    public static final RegistryObject<Block> GUNPOWDER_BAG = registerBlock("gunpowder_bag",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
+    // Ender Dust Bag Registry (BetterEnd)
+    public static final Block ENDER_DUST_BAG = FabricLoader.getInstance().isModLoaded("betterend") ?
+            registerBlock("ender_dust_bag", new Block(FabricBlockSettings.of(Material.WOOL).strength(.9F, 3.0F).sounds(BlockSoundGroup.WOOL)), ModItemGroup.CREATIVE_MODE_TAB) : null;
 
-    // Wheat Flour Bag (Create)
-    public static final RegistryObject<Block> WHEAT_FLOUR_BAG = registerBlock("wheat_flour_bag",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
-
-    // Powdered Obsidian Bag (Create)
-    public static final RegistryObject<Block> POWDERED_OBSIDIAN_BAG = registerBlock("powdered_obsidian_bag",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
-
-    // Cinder Flour Bag (Create)
-    public static final RegistryObject<Block> CINDER_FLOUR_BAG = registerBlock("cinder_flour_bag",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).strength(.8F, .8F).sound(SoundType.WOOL)));
-
-    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
-        RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        registerBlockItem(name, toReturn);
-        return toReturn;
+    private static Block registerBlock(String name, Block block, ItemGroup tab) {
+        registerBlockItem(name, block, tab);
+        return Registry.register(Registry.BLOCK, new Identifier(CrateDelight.MOD_ID, name), block);
     }
 
-    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+    private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
+        return Registry.register(Registry.ITEM, new Identifier(CrateDelight.MOD_ID, name),
+                new BlockItem(block, new FabricItemSettings().group(tab)));
     }
 
-    public static void register(IEventBus eventBus) {
-        BLOCKS.register(eventBus);
+    public static void registerModBlocks() {
+        CrateDelight.LOGGER.debug("Registering ModBlocks for " + CrateDelight.MOD_ID);
     }
 }
