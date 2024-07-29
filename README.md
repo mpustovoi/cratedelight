@@ -18,6 +18,9 @@ Your contributions to this project allows Crate Delight to be improved to delive
 
 This mod adds thirteen new type of blocks to the game that are useful to save storage, new blocks are constantly added with updates:
 
+- Carrot Crate
+- Potato Crate
+- Beetroot Crate
 - Apple Crate
 - Berry Crate
 - Glow Berry Crate
@@ -40,4 +43,4 @@ It also adds crates and bags for the following mods:
 - Nutritious Feast
 - Jegm's Kiwis
 
-If you would like Crate Delight to have support for other mods, send your suggestions [on GitHub,](https://github.com/axperty/cratedelight-forge/issues/new) or you can also join the [Discord server.](https://discord.gg/yweZ2agkDw)
+If you would like Crate Delight to have support for other mods, send your suggestions on [GitHub,](https://github.com/axperty/cratedelight/issues/new) or you can also join the [Discord server.](https://discord.gg/yweZ2agkDw)
