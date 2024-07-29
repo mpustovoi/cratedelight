@@ -39,5 +39,5 @@
   "block.cratedelight.potato_crate": "Potatislåda",
   "block.cratedelight.beetroot_crate": "Rödbetslåda",
 
-  "creativetab.cratedelight_tab": "Crate Delight"
+  "itemGroup.cratedelight": "Crate Delight"
 }

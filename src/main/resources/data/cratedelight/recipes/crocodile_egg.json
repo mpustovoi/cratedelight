@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexsmobs"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:crocodile_egg_crate"
+    }
+  ],
+  "result": {
+    "item": "alexsmobs:crocodile_egg",
+    "count": 9
+  }
+}

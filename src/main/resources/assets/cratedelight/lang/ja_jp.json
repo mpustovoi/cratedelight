@@ -39,5 +39,5 @@
   "block.cratedelight.potato_crate": "ジャガイモの箱",
   "block.cratedelight.beetroot_crate": "ビートルートの箱",
 
-  "creativetab.cratedelight_tab": "Crate Delight"
+  "itemGroup.cratedelight": "Crate Delight"
 }

@@ -1,0 +1,15 @@
+{
+  "type": "tutorialmod:gem_infusing",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "fluid": {
+    "FluidName": "tutorialmod:soap_water_fluid",
+    "Amount": 250
+  },
+  "output": {
+    "item": "minecraft:diamond"
+  }
+}

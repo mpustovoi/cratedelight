@@ -39,5 +39,5 @@
   "block.cratedelight.potato_crate": "Skrzynia ziemniaków",
   "block.cratedelight.beetroot_crate": "Skrzynia buraków",
 
-  "creativetab.cratedelight_tab": "Crate Delight"
+  "itemGroup.cratedelight": "Crate Delight"
 }
