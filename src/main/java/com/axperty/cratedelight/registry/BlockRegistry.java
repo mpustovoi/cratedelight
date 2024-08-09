@@ -39,8 +39,26 @@ public class BlockRegistry {
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
 
         // Blueberry Crate Registry
-        if (FabricLoader.getInstance().isModLoaded("nutritious-feast")) {
+        if (FabricLoader.getInstance().isModLoaded("nutritious-feast") || FabricLoader.getInstance().isModLoaded("moreberries")) {
             BlockList.BLUEBERRY_CRATE = block("blueberry_crate",
+                    new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+        }
+
+        // Black, Green, Orange, Purple, and Yellow Berry Crate Registry
+        if (FabricLoader.getInstance().isModLoaded("moreberries")) {
+            BlockList.BLACK_BERRY_CRATE = block("black_berry_crate",
+                    new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+            BlockList.GREEN_BERRY_CRATE = block("green_berry_crate",
+                    new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+            BlockList.ORANGE_BERRY_CRATE = block("orange_berry_crate",
+                    new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+            BlockList.YELLOW_BERRY_CRATE = block("yellow_berry_crate",
+                    new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+            BlockList.PURPLE_BERRY_CRATE = block("purple_berry_crate",
                     new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
         }
 

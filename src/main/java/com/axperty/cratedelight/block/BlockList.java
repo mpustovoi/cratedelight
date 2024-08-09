@@ -21,8 +21,23 @@ public class BlockList {
     // Glow Berry Crate
     public static Block GLOWBERRY_CRATE;
 
-    // Blueberry Crate (for Nutritious Feast)
+    // Blueberry Crate (for Nutritious Feast & More Berries)
     public static Block BLUEBERRY_CRATE;
+
+    // Black Berry Crate (for More Berries)
+    public static Block BLACK_BERRY_CRATE;
+
+    // Green Berry Crate (for More Berries)
+    public static Block GREEN_BERRY_CRATE;
+
+    // Orange Berry Crate (for More Berries)
+    public static Block ORANGE_BERRY_CRATE;
+
+    // Yellow Berry Crate (for More Berries)
+    public static Block YELLOW_BERRY_CRATE;
+
+    // Purple Berry Crate (for More Berries)
+    public static Block PURPLE_BERRY_CRATE;
 
     // Egg Crate
     public static Block EGG_CRATE;
