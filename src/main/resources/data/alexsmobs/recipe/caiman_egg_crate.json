@@ -2,7 +2,7 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "alexmobs"
+      "modid": "alexsmobs"
     }
   ],
   "type": "minecraft:crafting_shaped",
@@ -13,10 +13,10 @@
   ],
   "key": {
     "#": {
-      "item": "alexsmobs:banana"
+      "item": "alexsmobs:caiman_egg"
     }
   },
   "result": {
-    "id": "cratedelight:banana_crate"
+    "id": "cratedelight:caiman_egg_crate"
   }
 }

@@ -1,14 +1,20 @@
-<p align="left"><img src="https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png" alt="Crate Delight">
+![Crate Delight](https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png)
 
-<h3>Minor Update</h3>
-<p><b>Summary:</b> This update adds support for Neoforge and compatibility with Expanded Delight.</p>
-<hr/>
+### Minor Update
 
-<h3>✨ What's New:</h3>
-<ul>
-  <li>Added support for Neoforge.</li>
-  <li>Added crates and bags for Expanded Delight.</li>
-</ul>
-<hr/>
+**Summary:** This minor update adds recipe book entries.
 
-<p>Your feedback is important to make improvements to this mod, submit your ideas on <a href="https://discord.gg/yweZ2agkDw">Discord</a> or report bugs on <a href="https://github.com/axperty/cratedelight-forge">GitHub.</a></p>
+***
+
+### 🛠️ Minor Changes:
+
+- All item recipes can now be unlocked by obtaining specific items, allowing players to discover new crafting options as they gather resources.
+
+### 📝 Translations:
+
+- Added translations for Traditional Chinese (Taiwan), special thanks to [Lobster0228.](https://github.com/Lobster0228)
+***
+
+
+Your feedback is important to make improvements to this mod, submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub.](https://github.com/axperty/cratedelight)
+You can also support modding development by donating through [PayPal.](https://paypal.me/kevgelhorn)

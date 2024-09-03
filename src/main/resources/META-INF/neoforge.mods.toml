@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
-issueTrackerURL = "https://github.com/axperty/cratedelight-forge/issues"
+issueTrackerURL = "https://github.com/axperty/cratedelight/issues"
 license="${mod_license}"
 
 [[mods]]
