@@ -146,4 +146,9 @@ public class BlockRegistry {
     // Cinder Flour Bag (Create)
     public static final DeferredBlock<Block> CINDER_FLOUR_BAG = BLOCKS.registerSimpleBlock("cinder_flour_bag",
             BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
+
+    // Stacked Melons
+    public static final DeferredBlock<Block> STACKED_MELONS = BLOCKS.registerSimpleBlock("stacked_melons",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
+
 }

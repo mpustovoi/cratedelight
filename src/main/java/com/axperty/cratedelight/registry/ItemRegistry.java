@@ -109,4 +109,7 @@ public class ItemRegistry {
 
     // Cinder Flour Bag Item
     public static final DeferredItem<BlockItem> CINDER_FLOUR_BAG_ITEM = ITEMS.registerSimpleBlockItem("cinder_flour_bag", BlockRegistry.CINDER_FLOUR_BAG);
+
+    // Stacked Melons Item
+    public static final DeferredItem<BlockItem> STACKED_MELONS_ITEM = ITEMS.registerSimpleBlockItem("stacked_melons", BlockRegistry.STACKED_MELONS);
 }

@@ -39,5 +39,7 @@
   "block.cratedelight.potato_crate": "Potato Crate",
   "block.cratedelight.beetroot_crate": "Beetroot Crate",
 
+  "block.cratedelight.stacked_melons": "Stacked Melons",
+
   "itemGroup.cratedelight": "Crate Delight"
 }

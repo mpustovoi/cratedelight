@@ -76,5 +76,7 @@ public class CreativeTabRegistry {
                     output.accept(BlockRegistry.POWDERED_OBSIDIAN_BAG.get());
                     output.accept(BlockRegistry.CINDER_FLOUR_BAG.get());
                 }
+
+                output.accept(BlockRegistry.STACKED_MELONS.get());
             }).build());
 }
