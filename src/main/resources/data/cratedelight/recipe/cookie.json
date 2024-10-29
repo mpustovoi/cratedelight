@@ -1,12 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:cookie_bag"
     }
   ],
   "result": {
-    "id": "minecraft:cookie",
-    "count": 9
+    "count": 9,
+    "id": "minecraft:cookie"
   }
 }

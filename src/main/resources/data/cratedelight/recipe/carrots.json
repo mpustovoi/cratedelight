@@ -9,13 +9,14 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:carrot_crate"
     }
   ],
   "result": {
-    "id": "minecraft:carrot",
-    "count": 9
+    "count": 9,
+    "id": "minecraft:carrot"
   }
 }

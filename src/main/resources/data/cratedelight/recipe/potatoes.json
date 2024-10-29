@@ -9,13 +9,14 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:potato_crate"
     }
   ],
   "result": {
-    "id": "minecraft:potato",
-    "count": 9
+    "count": 9,
+    "id": "minecraft:potato"
   }
 }

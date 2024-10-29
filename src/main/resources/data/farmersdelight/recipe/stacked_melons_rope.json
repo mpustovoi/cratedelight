@@ -1,27 +1,27 @@
 {
   "neoforge:conditions": [
     {
-      "type": "neoforge:not",
-      "value": {
-        "type": "neoforge:mod_loaded",
-        "modid": "farmersdelight"
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
     }
   ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
     "###",
-    "###",
+    "#R#",
     "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:potato"
+      "item": "minecraft:melon"
+    },
+    "R": {
+      "item": "farmersdelight:rope"
     }
   },
   "result": {
     "count": 1,
-    "id": "cratedelight:potato_crate"
+    "id": "cratedelight:stacked_melons"
   }
 }
