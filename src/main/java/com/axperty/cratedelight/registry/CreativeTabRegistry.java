@@ -77,6 +77,8 @@ public class CreativeTabRegistry {
                     output.accept(BlockRegistry.CINDER_FLOUR_BAG.get());
                 }
 
+                output.accept(BlockRegistry.COOKIE_BAG.get());
                 output.accept(BlockRegistry.STACKED_MELONS.get());
+                output.accept(BlockRegistry.STACKED_PUMPKINS.get());
             }).build());
 }

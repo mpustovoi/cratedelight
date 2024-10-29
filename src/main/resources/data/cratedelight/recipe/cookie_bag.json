@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cookie"
+    }
+  },
+  "result": {
+    "id": "cratedelight:cookie_bag"
+  }
+}

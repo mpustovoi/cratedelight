@@ -147,8 +147,16 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> CINDER_FLOUR_BAG = BLOCKS.registerSimpleBlock("cinder_flour_bag",
             BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
 
+    // Cookie Bag
+    public static final DeferredBlock<Block> COOKIE_BAG = BLOCKS.registerSimpleBlock("cookie_bag",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_WOOL).mapColor(MapColor.WOOL));
+
     // Stacked Melons
     public static final DeferredBlock<Block> STACKED_MELONS = BLOCKS.registerSimpleBlock("stacked_melons",
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
+
+    // Stacked Pumpkins
+    public static final DeferredBlock<Block> STACKED_PUMPKINS = BLOCKS.registerSimpleBlock("stacked_pumpkins",
             BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(MapColor.WOOD));
 
 }
