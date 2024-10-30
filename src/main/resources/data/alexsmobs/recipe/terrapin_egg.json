@@ -6,13 +6,14 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:terrapin_egg_crate"
     }
   ],
   "result": {
-    "id": "alexsmobs:terrapin_egg",
-    "count": 9
+    "count": 9,
+    "id": "alexsmobs:terrapin_egg"
   }
 }

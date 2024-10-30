@@ -64,6 +64,7 @@ public class CreativeTabRegistry {
                 output.accept(BlockRegistry.GOLDEN_APPLE_CRATE.get());
                 output.accept(BlockRegistry.COCOABEANS_BAG.get());
                 output.accept(BlockRegistry.SUGAR_BAG.get());
+                output.accept(BlockRegistry.COOKIE_BAG.get());
                 output.accept(BlockRegistry.GUNPOWDER_BAG.get());
 
                 if (ModList.get().isLoaded("expandeddelight")) {
@@ -77,7 +78,6 @@ public class CreativeTabRegistry {
                     output.accept(BlockRegistry.CINDER_FLOUR_BAG.get());
                 }
 
-                output.accept(BlockRegistry.COOKIE_BAG.get());
                 output.accept(BlockRegistry.STACKED_MELONS.get());
                 output.accept(BlockRegistry.STACKED_PUMPKINS.get());
             }).build());

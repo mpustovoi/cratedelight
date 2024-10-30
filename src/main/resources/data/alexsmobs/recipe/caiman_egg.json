@@ -6,13 +6,14 @@
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:caiman_egg_crate"
     }
   ],
   "result": {
-    "id": "alexsmobs:caiman_egg",
-    "count": 9
+    "count": 9,
+    "id": "alexsmobs:caiman_egg"
   }
 }
