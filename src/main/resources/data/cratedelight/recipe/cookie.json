@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "cratedelight:golden_apple_crate"
+      "item": "cratedelight:cookie_bag"
     }
   ],
   "result": {
     "count": 9,
-    "id": "minecraft:golden_apple"
+    "id": "minecraft:cookie"
   }
 }

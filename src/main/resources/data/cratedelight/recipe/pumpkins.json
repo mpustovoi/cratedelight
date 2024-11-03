@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "cratedelight:golden_apple_crate"
+      "item": "cratedelight:stacked_pumpkins"
     }
   ],
   "result": {
-    "count": 9,
-    "id": "minecraft:golden_apple"
+    "count": 8,
+    "id": "minecraft:pumpkin"
   }
 }

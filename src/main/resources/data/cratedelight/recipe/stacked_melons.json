@@ -3,16 +3,19 @@
   "category": "misc",
   "pattern": [
     "###",
-    "###",
+    "#L#",
     "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:cod"
+      "item": "minecraft:melon"
+    },
+    "L": {
+      "item": "minecraft:lead"
     }
   },
   "result": {
     "count": 1,
-    "id": "cratedelight:cod_crate"
+    "id": "cratedelight:stacked_melons"
   }
 }

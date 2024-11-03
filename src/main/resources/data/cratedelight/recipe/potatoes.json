@@ -1,21 +1,22 @@
 {
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:mod_loaded",
+        "type": "neoforge:mod_loaded",
         "modid": "farmersdelight"
       }
     }
   ],
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "cratedelight:potato_crate"
     }
   ],
   "result": {
-    "id": "minecraft:potato",
-    "count": 9
+    "count": 9,
+    "id": "minecraft:potato"
   }
 }

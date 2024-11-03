@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cod"
+      "item": "minecraft:cookie"
     }
   },
   "result": {
     "count": 1,
-    "id": "cratedelight:cod_crate"
+    "id": "cratedelight:cookie_bag"
   }
 }
