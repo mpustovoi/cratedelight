@@ -1,10 +1,4 @@
 {
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    }
-  ],
   "type": "minecraft:block",
   "pools": [
     {
@@ -13,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cratedelight:wheat_flour_bag"
+          "name": "cratedelight:stacked_pumpkins"
         }
       ],
       "conditions": [

@@ -1,10 +1,4 @@
 {
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "alexsmobs"
-    }
-  ],
   "type": "minecraft:block",
   "pools": [
     {
@@ -13,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cratedelight:crocodile_egg_crate"
+          "name": "cratedelight:cookie_bag"
         }
       ],
       "conditions": [
